@@ -1,11 +1,11 @@
-#include "holberton.h"
+#include <Stdio.h>
 
 /**
  * print_alphabet - Make the alphabet
  *
- * Return: void
+ * Return: Always 0
  */
-void print_alphabet(void)
+int main(void)
 {
 	char c;
 
@@ -15,6 +15,6 @@ void print_alphabet(void)
 	}
 
 	_putchar('\n');
+
+	return (0)
 }
-
-
